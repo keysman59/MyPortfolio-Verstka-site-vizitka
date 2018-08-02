@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	background: url(../images/geometry2.png) repeat; 
+	height: 650px;
+}
+
+.indent-top {
+	height: 220px;
+}
+
+.header {
+	width: 300px;
+	height: 154px;
+	background: white;
+    border-radius: 25px 25px 0 0;
+}
+
+.header h1 {
+	text-align: center;
+	padding-top: 77px;
+	font-size: 21pt;
+	word-spacing: 200px;
+	color: #414141;
+}
+
+.main {
+	width: 300px;
+	height: 78px;
+	background: #33c1e3;
+	text-align: center;
+    border-radius: 0 0 25px 25px;
+}
+
+.main a {
+
+    border: 2px solid white;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 20px;
+
+}
+
+.main a:hover {
+
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    background: white;
+    color: #33c1e3;
+}
+
+.footer {
+	margin: -300px 80px;
+}
+
+.footer__icons {
+	height: 138px;
+	width: 138px;
+	border-radius: 50%;
+	border: 2px #c9c9c9 solid;
+}
+
+/* public */
+
+.container {
+
+	width: 300px;
+	margin: 0 auto;
+
+}
